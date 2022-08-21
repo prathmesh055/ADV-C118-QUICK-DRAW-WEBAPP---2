@@ -1,0 +1,62 @@
+body {
+    background-color: #fbd139;
+}
+
+h1 {
+
+    color: rgb(38, 0, 225);
+    background-color: cornsilk;
+}
+
+#show_sketch {
+    float: right;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 80px;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes example {
+
+    from {
+        box-shadow: 2px 2px red, 2px 2px olive;
+    }
+
+    to {
+        box-shadow: 1px 1px black, 1px 1px white;
+    }
+
+
+}
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
+
+
+}
+
+p,
+span {
+    padding-top: 10px;
+    font-family: 'Special Elite', fantasy;
+    font-size: 25px;
+}
+
+#score {
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+#time {
+    font-size: 35px;
+    float: right;
+    margin-right: 20px;
+}
